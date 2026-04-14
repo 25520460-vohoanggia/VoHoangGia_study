@@ -1,0 +1,50 @@
+ Cài đặt lớp cPhanSo để biểu diễn khái niệm phân số với hai thành phần dữ liệu
+tử số, mẫu số và các hàm thành phần cộng, trừ, nhân, chia hai phân số, các
+hàm thành phần xuất, nhập, định giá trị cho phân số. Viết chương trình cho
+phép nhập vào hai phân số, in ra kết quả các phép toán cộng, trừ, nhân, chia hai
+phân số kể trên.
+
+2. Cài đặt lớp biểu diễn khái niệm điểm trong mặt phẳng với hai thành phần dữ liệu
+hoành độ và tung độ với các phương thức thiết lập, các hàm thành phần cho
+phép thay đổi nội dung của điểm, lấy hoành độ, tung độ, thay đổi hoành độ, tung
+độ, tịnh tiến, nhập, xuất một điểm. Viết chương trình minh họa các chức năng đã
+cài đặt được. Tìm hiểu các hàm vẽ điểm trong chế độ đồ họa (yêu cầu tìm hiểu
+thêm không bắt buộc)
+
+3. Cài đặt lớp biểu diễn khái niệm số phức với hai thành phần dữ liệu thực, ảo và
+các hàm thành phần xuất, nhập, định giá trị cho số phức, cộng, trừ, nhân, chia
+hai số phức. Viết chương trình cho phép nhập vào hai số phức, in ra kết quả các
+phép toán cộng, trừ, nhân, chia hai số phức kể trên.
+
+4. Cài đặt lớp biểu diễn khái niệm thời gian với các thành phần dữ liệu giờ, phút,
+giây và các thao tác thích hợp (nhập, xuất, thiết lập, thay đổi giờ/phút/giây, lấy
+giờ/phút/giây, tăng/giảm giờ/phút/giây,…). Viết chương trình minh họa các chức
+năng đã cài đặt của lớp Thời gian.
+
+
+5. Cài đặt lớp biểu diễn khái niệm ngày tháng năm với các thành phần dữ liệu
+ngày, tháng, năm và các thao tác thích hợp (nhập, xuất, thiết lập, thay đổi
+ngày/tháng/năm, lấy ngày/tháng/năm, tăng/giảm ngày/tháng/năm, lấy thứ trong
+tuần, kiểm tra năm nhuận,…). Viết chương trình minh họa các chức năng đã cài
+đặt của lớp ngày tháng năm.
+
+6. Cài đặt lớp cString để biểu diễn khái niệm chuỗi ký tự với các phương thức thiết
+lập và hủy bỏ, các hàm thành phần xác định chiều dài chuỗi, nối hai chuỗi, đảo
+chuỗi, chuyển chuỗi hoa/thường, nhập và xuất chuỗi. Viết chương trình minh họa
+các chức năng đã cài đặt của lớp cString.
+
+7. Sở giao thông cần theo dõi việc đăng ký xe (Vehicle) của người dân, cho biết
+mỗi xe cần lưu các thông tin như sau: chủ xe, loại xe, trị giá xe (>=0), dung tích
+xylanh (>=0). Dựa vào thông tin trị giá xe và dung tích xylanh, sở giao thông
+cũng tính mức thuế phải đóng trước bạ khi mua xe như sau:
+ Dưới 100cc, 1% trị giá xe.
+ Từ 100 đến 200cc, 3% trị giá xe.
+ Trên 200cc, 5% trị giá xe.
+Hãy thiết kế và cài đặt class Vehicle với các attributes và methods phù hợp (có
+kiểm tra ràng buộc dữ liệu). Class phải có các constructor và phải bảo đảm tính
+encapsulation.
+Viết chương trình minh họa thực hiện các chức năng sau:
+ Tạo 3 đối tượng Vehicle xe1, xe2, xe3.
+ Đối tượng xe1 và xe2 được thiết lập dữ liệu sẵn thông qua constructor
+ Đối tượng xe3 cho phép người dùng nhập dữ liệu từ bán phím.
+ Xuất bảng kê khai thông tin chi tiết và tiền thuế trước bạ của các xe trên

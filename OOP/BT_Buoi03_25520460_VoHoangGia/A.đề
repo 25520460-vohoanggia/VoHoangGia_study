@@ -1,0 +1,79 @@
+1. Định nghĩa lớp cDSPhanSo (danh sách phân số) để lưu trữ và xử lý các thao tác
+trên mảng các phân số. Viết chương trình cho phép người dùng nhập vào danh
+sách các phân số
+- Tính tổng các phân số
+- Tìm phân số lớn nhất
+- Tìm phân số nhỏ nhất
+- Tìm phân số có tử là số nguyên tố lớn nhất
+- Sắp xếp danh sách phân số tăng dần
+- Sắp xếp danh sách phân số giảm dần
+
+2. Định nghĩa lớp Mảng một chiều (cArray) để lưu trữ danh sách các số nguyên và
+hỗ trợ xử lý các thao tác cơ bản trên mảng một chiều:
+- Tạo mảng ngẫu nhiên gồm n số nguyên
+- Xuất các phần tử mảng
+- Đếm số lần xuất hiện của giá trị x trong mảng
+- Kiểm tra các phần tử trong mảng có tăng dần hay không
+- Tìm phần lẻ nhỏ nhất trong mảng
+- Tìm số nguyên tố lớn nhất trong mảng
+- Sắp xếp các phần tử trong mảng tăng dần/giảm dần theo các thuật toán đã học
+trong môn Cấu trúc dữ liệu và giải thuật
+Viết chương trình minh họa các chức năng của lớp cAray đã định nghĩa.
+
+3. Xét đa thức theo biến x (đa thức một biến) bậc n có dạng như sau:
+P(X) = a1xn + a2xn-1 + a3xn-2 + … + aj
+Trong đó: n là bậc của đa thức. a1, a2, a3,…, aj là các hệ số tương ứng với từng
+bậc của đa thức.
+Định nghĩa lớp cDaThuc biểu diễn khái niệm đa thức với các thao tác sau:
+- Khởi tạo một đa thức có bậc bằng 0 hoặc bậc.
+- Tính giá trị của đa thức khi biết giá trị của x
+- Nhập đa thức
+- Xuất đa thức
+- Cộng hai đa thức
+- Trừ hai đa thức
+Viết chương trình cho phép người dùng nhập vào hai đa thức, xuất các đa thức
+ra màn hình, tính tổng , hiệu hai đa thức và xuất kết quả ra màn hình.
+
+4. Định nghĩa lớp cTamGiac để biểu diễn khái niệm tam giác trong mặt phẳng
+(gồm 3 đỉnh A, B, C) với các phương thức thiết lập, hủy bỏ (nếu có). Các hàm
+thành phần: thiết lập, nhập, xuất, kiểm tra loại tam giác (thường, vuông, cân,
+đều), tính chu vi, tính diện tích, tịnh tiến, phóng to, thu nhỏ, vẽ tam giác (nếu
+được). Viết chương trình minh họa các chức năng của lớp cTamGiac.
+Lưu ý: Để vẽ hình sinh viên cần tìm hiểu thư viện đồ họa (graphic), yêu cầu
+này tùy chọn không bắt buộc.
+
+5. Định nghĩa lớp cDaGiac để biểu diễn khái niệm đa giác trong mặt phẳng với các
+hàm thành phần tương tự như lớp TamGiac. Viết chương trình minh họa.
+
+6. Định nghĩa lớp cCandidate (Thí sinh) gồm các thuộc tính: mã, tên, ngày tháng
+năm sinh, điểm thi Toán, Văn, Anh và các phương thức cần thiết.
+Định nghĩa lớp cListCandidate (danh sách thí sinh) để lưu trữ và xử lý các thao
+tác trên danh sách thí sinh:
+- Nhập vào n thí sinh (n do người dùng nhập)
+- Xuất thông tin các thí sinh có tổng điểm lớn hơn 15
+- Cho biết thí sinh nào có tổng điểm cao nhất
+- Sắp xếp danh sách thí sinh giảm dần theo tổng điểm
+Viết chương trình minh họa.
+
+7. Cài đặt lớp Nhân viên văn phòng (cNhanVienVP) cho phép lưu trữ các thông tin:
+mã nhân viên, họ tên, ngày sinh, lương và các thao tác cần thiết : constructor, get,
+set, nhập, xuất,...
+Viết chương trình cho phép người dùng thực hiện các chức năng sau:
+- Nhập danh sách n nhân viên văn phòng
+- Xuất danh sách nhân viên văn phòng dưới dạng danh sách
+- Cho biết nhân viên văn phòng nào có lương cao nhất
+- Tính tổng lương mà công ty phải tra cho các nhân viên văn phòng
+- Cho biết nhân viên nào có tuổi cao nhất
+- Sắp xếp danh sách nhân viên văn phòng tăng dần theo lương
+
+8. Cài đặt lớp Nhân viên sản xuất (cNhanVienSX) cho phép lưu trữ các thông tin:
+mã nhân viên, họ tên, ngày sinh, số sản phẩm đã gia công, đơn giá một sản phẩm
+và các thao tác cần thiết : constructor, get, set, nhập, xuất, tính lương cho nhân
+viên = số sản phẩm đã gia công * đơn giá một sản phẩm
+Viết chương trình cho phép người dùng thực hiện các chức năng sau:
+- Nhập danh sách n nhân viên sản xuất
+- Xuất danh sách nhân viên sản xuất dưới dạng danh sách
+- Cho biết nhân viên sản xuất nào có lương thấp nhất
+- Tính tổng lương mà công ty phải tra cho các nhân viên sản xuất
+- Cho biết nhân viên sản xuất nào có tuổi cao nhất
+- Sắp xếp danh sách nhân viên sản xuất tăng dần theo lương

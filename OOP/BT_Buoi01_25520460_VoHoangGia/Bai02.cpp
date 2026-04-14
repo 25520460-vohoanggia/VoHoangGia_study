@@ -2,6 +2,7 @@
 //Họ và Tên: Võ Hoàng Gia
 //Ngày sinh:03/02/2007
 //Lớp:IT002.Q27
+
 #include <iostream>
 using namespace std;
 
@@ -12,8 +13,10 @@ struct Phanso {
 void Nhap(Phanso &p, int stt){
     cout<<"Nhap tu so cua phan so thu "<<stt<<" : ";
     cin>>p.tu;
+    do{
     cout<<"Nhap mau so cua phan so thu "<<stt<<" : ";
     cin>>p.mau;
+    }while(p.mau == 0);
 }
 void Xuat (Phanso kq){
     cout<<"Phan so can tim: ";
